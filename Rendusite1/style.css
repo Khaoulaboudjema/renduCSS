@@ -1,7 +1,18 @@
+*{
+    text-decoration: none;
+}
+body{
+        font-family:  "DM Sans", sans-serif;
+        margin: 0;
+        background-color: black;
+       
+    }
 header{
     background-image: url(assets/image-header.png);
     height: 100vh;
     background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
 }
 nav{
     padding: 24px;
@@ -18,11 +29,9 @@ nav{
     ul{
         display: inline-block;
         float: right;
-        margin: 0 auto;
+        
     }
-    body{
-        font-family: Arial, Helvetica, sans-serif;
-    }
+    
     .hero{
         min-height: 100vh;
         display: flex;
@@ -37,47 +46,121 @@ nav{
 h1{
     color: white;
     font-weight: bolder;
-    padding: 24px;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 53px;
+    font-size: 40px;
     span{
-        font-size: 134px;
+        font-size: 100px;
     }
 }
 h2{
+    text-align: center;
     color: white;
     font-weight: bolder;
-    padding: 24px;
-    margin:0 auto;
-    text-align: center;
+    font-family:  "DM Sans", sans-serif;
 }
 p{
     color: white;
     font-weight: bolder;
-    text-align: center;
+   
     
-
+    font-weight: 300;
+    line-height: 1.7;
 }
-.buttons{
-    display: flex;
-    padding: 15px 32px;
-    border-radius: 8px;
-    justify-content: center;
-    margin-top: 20px;
-    a{
-                color: white;
-        text-decoration: none;
-        margin: 10px;
-    }
-}
-.btn{
-    text-decoration: none;
-    padding: 15px 32px ;
-}
-.btn-primary{
+.buttons {
     background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
 }
-.btn-secondary{
+
+.blanc {
     background-color: white;
+    color: black;
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+}
+
+.containerB{
+    width: auto;
+}
+main{
+ #presentation{
+ }
+    .sectionPadding{
+        padding-block: 120px;
+        background-color: black;
+    }
+    .container{
+        max-width: 900px;
+     background-color: black;
+    margin: auto;
+        position: relative;
+        height: 100vh;
+        justify-content: flex-end;
+        margin-top:10px;
+        align-items: center;
+        text-align: left;
+        padding: 100px 15px;
+    h2{
+        color: white;
+        text-align: left;
+        font-size: 48px;
+        font-weight: 600;
+        word-spacing: 1.3;
+        font-family: "DM Sans", sans-serif;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    p{
+        color: white;
+        
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+         font-family: "DM Sans", sans-serif;
+         justify-content: center;
+         margin: 0 auto;
+    }   
+}
+#section2{ 
+}
+.container2{
+    background-color: black;
+    color: white;
+    width: 200px;
+    margin: auto;
+    h2{
+     
+        margin: auto;
+    }
+    }
+    ul{
+        display: inline;
+    }
+    .lineup{
+        padding: 20px;
+        margin: 0;
+        width: 400;
+        padding: 20px;
+        color: white;
+    }
+    .lineup li{
+        align-items: center;
+        font-weight: bolder;
+        margin: 8px;
+        border-top: 1px dashed white;
+    }
+   
+    .buttons{
+        position: relative;
+        height: 100vh;
+        justify-content: flex-end;
+        margin-top:10px;
+        align-items: center;
+        text-align: left;
+        padding: 100px 15px;
+}
 }
